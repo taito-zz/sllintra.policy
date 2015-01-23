@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>0</version>
+  <dependencies>
+    <dependency>profile-Products.PloneFormGen:default</dependency>
+    <dependency>profile-eea.facetednavigation:default</dependency>
+    <dependency>profile-plone.app.dexterity:default</dependency>
+    <dependency>profile-sllintra.theme:default</dependency>
+  </dependencies>
+</metadata>

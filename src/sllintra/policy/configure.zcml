@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<configure
+  i18n_domain="sllintra.policy"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  xmlns="http://namespaces.zope.org/zope">
+
+  <include package="Products.PloneFormGen"/>
+  <include package="eea.facetednavigation"/>
+  <include package="plone.app.dexterity"/>
+  <include package="sllintra.theme"/>
+
+  <genericsetup:registerProfile
+    description="Change Plone site into SLL intra site."
+    directory="profiles/default"
+    name="default"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    title="sllintra.policy"
+    />
+
+</configure>
