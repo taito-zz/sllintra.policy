@@ -27,6 +27,7 @@ setup(
         'eea.facetednavigation',
         'plone.app.dexterity',
         'setuptools',
+        'sllintra.content',
         'sllintra.theme'],
     extras_require={'test': ['hexagonit.testing']},
     entry_points="""
