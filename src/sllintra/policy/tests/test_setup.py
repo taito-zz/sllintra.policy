@@ -25,10 +25,6 @@ class TestCase(IntegrationTestCase):
         installer = getToolByName(self.portal, 'portal_quickinstaller')
         self.assertTrue(installer.isProductInstalled('eea.facetednavigation'))
 
-    def test_metadata__dependency__plone_app_dexterity(self):
-        installer = getToolByName(self.portal, 'portal_quickinstaller')
-        self.assertTrue(installer.isProductInstalled('plone.app.dexterity'))
-
     def test_metadata__dependency__sllintra_content(self):
         installer = getToolByName(self.portal, 'portal_quickinstaller')
         self.assertTrue(installer.isProductInstalled('sllintra.content'))

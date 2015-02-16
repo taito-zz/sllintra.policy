@@ -6,7 +6,6 @@
 
   <include package="Products.PloneFormGen"/>
   <include package="eea.facetednavigation"/>
-  <include package="plone.app.dexterity"/>
   <include package="sllintra.content"/>
   <include package="sllintra.theme"/>
 
