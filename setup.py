@@ -23,7 +23,9 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
+        'Products.CMFPlacefulWorkflow',
         'Products.PloneFormGen',
+        'collective.dexteritytextindexer',
         'eea.facetednavigation',
         'setuptools',
         'sllintra.content',
