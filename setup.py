@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='sllintra.policy',
-    version='0.0.2',
+    version='0.0.3',
     description="Turns Plone site into SLL intra site.",
     long_description=open("README.rst").read(),
     classifiers=[
