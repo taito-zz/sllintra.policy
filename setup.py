@@ -23,14 +23,12 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'Products.CMFPlacefulWorkflow',
         'Products.PloneFormGen',
-        'collective.dexteritytextindexer',
         'eea.facetednavigation',
         'setuptools',
         'sllintra.content',
         'sllintra.theme'],
-    extras_require={'test': ['hexagonit.testing']},
+    extras_require={'test': ['Products.CMFPlacefulWorkflow', 'hexagonit.testing']},
     entry_points="""
     # -*- Entry points: -*-
 
